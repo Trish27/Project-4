@@ -1,0 +1,9 @@
+<% form_tag application_path, :method => 'get' do %>
+<p>
+  <%= text_field_tag :search, params[:title] %>
+  <%= submit_tag "Search", :name => nil %>
+</p>
+
+<% end %>
+
+<button>Search</button>
